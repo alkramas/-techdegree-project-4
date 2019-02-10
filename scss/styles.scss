@@ -4,7 +4,7 @@
 // **************************************
 
 
-// import all partials from subdirectories
-@import 'base/base',
-        'components',
-        'utilities';
+// import all partials from sub directories
+@import 'utilities/index';
+@import 'base/index';
+@import 'components/index';

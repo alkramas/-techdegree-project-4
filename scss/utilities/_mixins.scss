@@ -2,4 +2,12 @@
 // _mixins.scss
 // **********************************************
 
+//base elements
+
+@mixin center {
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
 //media queries, flexbox settings
