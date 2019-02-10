@@ -6,8 +6,6 @@
 // **************************************
 
 // import the utilities styles
-@import '_variables';
-@import '_mixins';
-@import '_placeholders';
-
-// NOTE: import other components here:
+@import 'variables',
+        'mixins',
+        'placeholders';

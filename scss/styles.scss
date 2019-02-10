@@ -4,11 +4,7 @@
 // **************************************
 
 
-// NOTE: import utilities and base partials here:
-
-
-
-// import components partials
-@import 'base';
-@import 'components';
-@import 'utilities';
+// import all partials from subdirectories
+@import 'base/base',
+        'components',
+        'utilities';
