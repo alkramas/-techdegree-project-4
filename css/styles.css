@@ -1,5 +1,11 @@
-p {
-  color: #58E1C1;
+@import url("https://fonts.googleapis.com/css?family=Aleo:300,300i,400,400i,700,700i");
+* {
+  box-sizing: border-box;
+  font-family: "Aleo", serif;
+}
+
+a {
+  text-decoration: none;
 }
 
 .grid__row {
@@ -137,6 +143,24 @@ p {
   [class^=grid__col] + [class^=grid__col] {
     margin-left: 10px;
   }
+}
+
+.nav__item {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  background-color: #58E1C1;
+  padding: 1em 10px 1em;
+  border-radius: 5%;
+}
+.nav__item > a {
+  color: #fff;
+  align-content: center;
+}
+
+img {
+  display: block;
+  margin: 2em auto 2em auto;
 }
 
 /*# sourceMappingURL=styles.css.map */

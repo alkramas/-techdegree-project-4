@@ -4,10 +4,9 @@
 
 //base elements
 
-@mixin center {
-  margin-left: auto;
-  margin-right: auto;
-
+@mixin imagecenter {
+  display: block;
+  margin: 2em auto 2em auto;
 }
 
 //media queries, flexbox settings

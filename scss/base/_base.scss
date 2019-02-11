@@ -2,21 +2,21 @@
 // base.scss
 // styles related to base elements
 // **********************************************
+@import url('https://fonts.googleapis.com/css?family=Aleo:300,300i,400,400i,700,700i');
 
 * {
+  box-sizing: border-box;
+  font-family: $font-stack-primary;
 }
 
 ul {
-
+  
 }
 
 p {
-  //font-family: $font-stack-primary;
-  color: $primary-color;
+
 }
 
-
-
 a {
-
+  text-decoration: none;
 }

@@ -2,3 +2,7 @@
 // _images.scss
 // styles related to the image elements
 // **********************************************
+
+img {
+  @include imagecenter;
+}

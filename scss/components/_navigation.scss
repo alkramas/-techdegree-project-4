@@ -2,3 +2,18 @@
 // _navigation.scss
 // styles related to the nav elements
 // **********************************************
+
+.nav {
+  &__item {
+    list-style-type: none;
+    display: block;
+    & a {
+      background-color: $primary-color;
+      padding: $button-padding;
+      border-radius: $button-bordradius;
+      color: $white;
+      margin-top: 1em;
+      text-align: center;
+    }
+  }
+}
