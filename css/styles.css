@@ -4,8 +4,19 @@
   font-family: "Aleo", serif;
 }
 
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  color: #323232;
+}
+
 a {
   text-decoration: none;
+  color: #323232;
 }
 
 .grid__row {
@@ -146,16 +157,18 @@ a {
 }
 
 .nav__item {
-  display: flex;
-  flex-direction: column;
   list-style-type: none;
-  background-color: #58E1C1;
+  display: block;
+  padding: 20px;
+  margin-top: 5px;
+}
+.nav__item a {
   padding: 1em 10px 1em;
   border-radius: 5%;
 }
-.nav__item > a {
+.nav__item a:hover {
+  background-color: #58E1C1;
   color: #fff;
-  align-content: center;
 }
 
 img {

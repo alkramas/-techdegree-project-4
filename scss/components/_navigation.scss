@@ -7,13 +7,15 @@
   &__item {
     list-style-type: none;
     display: block;
+    padding: 20px;
+    margin-top: 5px;
     & a {
-      background-color: $primary-color;
       padding: $button-padding;
       border-radius: $button-bordradius;
+    }
+    & a:hover {
+      background-color: $primary-color;
       color: $white;
-      margin-top: 1em;
-      text-align: center;
     }
   }
 }
