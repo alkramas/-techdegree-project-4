@@ -13,13 +13,21 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
+  list-style-type: none;
+  padding: 0;
 }
 
 p {
   color: $default-text-color;
+  line-height: $default-lineheight;
 }
 
 a {
   text-decoration: none;
-  color: $default-text-color;
+  color: $default-color;
+}
+
+/*body*/
+.container {
+//  padding: 0 1em;
 }

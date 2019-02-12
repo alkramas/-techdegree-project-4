@@ -8,7 +8,7 @@ $font-stack-primary: 'Aleo', serif;
 
 //colors
 $white: #fff;
-$default-text-color: #323232;
+$default-text-color: #585656; //dark grey
 $primary-color: #58E1C1; //turqoise
 $default-color: #51DDFC; //light blue
 $success-color: #63CC81; //green
@@ -20,4 +20,7 @@ $info-color: #927BC1; //pruple
 $button-padding: 1em 10px 1em;
 
 //Buttons
-$button-bordradius: 5%;
+$button-bordradius: 5px;
+
+//text layout
+$default-lineheight: 1.6;

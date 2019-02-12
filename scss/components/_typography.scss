@@ -2,3 +2,11 @@
 // _typography.scss
 // styles related to the typo and fonts
 // **********************************************
+
+.blockquote, p, h1, h2, h3, h4 {
+  line-height: $default-lineheight;
+}
+
+.headline--primary {
+  color: $primary-color;
+}
