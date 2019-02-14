@@ -6,3 +6,7 @@
 img {
   @include imagecenter;
 }
+
+.img--frame {
+  width: 100%;
+}

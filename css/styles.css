@@ -499,8 +499,12 @@ template {
   }
 }
 
-.blockquote {
+.blockquote, p, h1, h2, h3, h4 {
   line-height: 1.6;
+}
+
+.headline--primary {
+  color: #58E1C1;
 }
 
 .nav__item {
@@ -518,16 +522,21 @@ template {
   padding: 1em 10px 1em;
   color: #fff;
 }
+.nav__item:hover a {
+  background-color: #58E1C1;
+  color: #fff;
+}
 .nav__item a {
   color: #585656;
-}
-.nav__item a:hover {
-  color: #fff;
 }
 
 img {
   display: block;
   margin: 2em auto 2em auto;
+}
+
+.img--frame {
+  width: 100%;
 }
 
 /*# sourceMappingURL=styles.css.map */

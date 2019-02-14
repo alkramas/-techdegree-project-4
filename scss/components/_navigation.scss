@@ -18,11 +18,12 @@
       padding: $button-padding;
       color: $white;
     }
+    &:hover a {
+      background-color: $primary-color;
+      color: $white;
+    }
     & a {
       color: $default-text-color;
-    }
-    & a:hover {
-      color: $white;
     }
   }
 }
