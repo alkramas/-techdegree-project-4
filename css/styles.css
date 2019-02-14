@@ -13,7 +13,7 @@ ul {
 }
 
 p {
-  color: #585656;
+  color: #9a9999;
   line-height: 1.6;
 }
 
@@ -505,6 +505,13 @@ template {
 
 .headline--primary {
   color: #58E1C1;
+  margin-left: 1em;
+  line-height: 1.1;
+}
+
+.headline--secondary {
+  color: #9a9999;
+  font-weight: normal;
 }
 
 .nav__item {
@@ -527,7 +534,7 @@ template {
   color: #fff;
 }
 .nav__item a {
-  color: #585656;
+  color: #9a9999;
 }
 
 img {
@@ -537,6 +544,10 @@ img {
 
 .img--frame {
   width: 100%;
+}
+
+.img--logo {
+  margin: 0.5em auto 0.5em auto;
 }
 
 /*# sourceMappingURL=styles.css.map */

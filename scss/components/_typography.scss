@@ -9,4 +9,10 @@
 
 .headline--primary {
   color: $primary-color;
+  margin-left: 1em;
+  line-height: 1.1;
+}
+.headline--secondary {
+  color: $default-text-color;
+  font-weight: normal;
 }
