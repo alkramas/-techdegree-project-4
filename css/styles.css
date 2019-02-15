@@ -23,6 +23,10 @@ a {
 }
 
 /*body*/
+.container {
+  padding: 0 2em;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -501,6 +505,7 @@ template {
 
 .blockquote, p, h1, h2, h3, h4 {
   line-height: 1.6;
+  color: #9a9999;
 }
 
 .headline--primary {
@@ -512,6 +517,15 @@ template {
 .headline--secondary {
   color: #9a9999;
   font-weight: normal;
+}
+
+.blockquote {
+  font-size: 1.5em;
+  font-style: italic;
+  background-color: #fff;
+  border-left: solid 10px #58E1C1;
+  border-radius: 5px;
+  padding-left: 1em;
 }
 
 .nav__item {

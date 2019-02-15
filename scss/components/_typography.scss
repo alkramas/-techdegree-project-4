@@ -5,6 +5,7 @@
 
 .blockquote, p, h1, h2, h3, h4 {
   line-height: $default-lineheight;
+  color: $default-text-color;
 }
 
 .headline--primary {
@@ -14,5 +15,16 @@
 }
 .headline--secondary {
   color: $default-text-color;
+  font-size: 1.3em;
   font-weight: normal;
+}
+
+.blockquote {
+  font-size: 1.5em;
+  font-style: italic;
+  background-color: $white;
+  border-left: solid 10px $primary-color;
+  border-radius: $button-bordradius;
+  padding-left: 1em;
+
 }
