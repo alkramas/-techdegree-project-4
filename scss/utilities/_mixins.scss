@@ -9,4 +9,21 @@
   margin: 2em auto 2em auto;
 }
 
+@mixin buttonbasic($bgcolor: null) {
+  padding: $button-padding;
+  border-radius: $button-bordradius;
+  color: $white;
+  background-color: $bgcolor;
+  border: none;
+  width: 100%;
+}
+
 //media queries, flexbox settings
+@mixin mediaquery($dir: null, $mgt: null, $mgl: null) {
+  @media (min-width: $mq-medium) {
+    flex-direction: $dir;
+    margin-top: $mgt;
+    margin-left: $mgl;
+//flex basis from grid.scss to be tested
+  }
+}

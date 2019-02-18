@@ -516,6 +516,7 @@ template {
 
 .headline--secondary {
   color: #9a9999;
+  font-size: 1.3em;
   font-weight: normal;
 }
 
@@ -558,10 +559,33 @@ img {
 
 .img--frame {
   width: 100%;
+  padding: 1em;
+  border: #9a9999 solid 1px;
 }
 
 .img--logo {
   margin: 0.5em auto 0.5em auto;
+}
+
+.theme__colors {
+  padding: 1em 10px 1em;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #51DDFC;
+  border: none;
+  width: 100%;
+}
+
+.form .form__label--hidden {
+  display: none;
+}
+.form .form__input {
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: #58E1C1 solid 4px;
+  margin: 1em 0;
+  padding-left: 1em;
 }
 
 /*# sourceMappingURL=styles.css.map */

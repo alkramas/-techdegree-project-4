@@ -9,6 +9,8 @@ img {
 
 .img--frame {
   width: 100%;
+  padding: 1em;
+  border: $default-text-color solid 2px;
 }
 .img--logo {
   margin: 0.5em auto 0.5em auto;

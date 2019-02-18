@@ -2,3 +2,7 @@
 // _buttons.scss
 // styles related to the button elements
 // **********************************************
+
+.theme__colors {
+  @include buttonbasic($default-color);
+}
