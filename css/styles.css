@@ -560,7 +560,7 @@ img {
 .img--frame {
   width: 100%;
   padding: 1em;
-  border: #9a9999 solid 1px;
+  border: #9a9999 solid 2px;
 }
 
 .img--logo {
