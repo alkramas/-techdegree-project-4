@@ -503,6 +503,73 @@ template {
   }
 }
 
+.grid__col--3.theme__colors {
+  background-color: #927BC1;
+  padding: 1em 10px 1em;
+  border-radius: 5px;
+  color: #9a9999;
+}
+
+.grid__col--4.theme__colors {
+  background-color: #51DDFC;
+  padding: 1em 10px 1em;
+  border-radius: 5px;
+  color: #9a9999;
+}
+
+.grid__col--5.theme__colors {
+  background-color: #63CC81;
+  padding: 1em 10px 1em;
+  border-radius: 5px;
+  color: #9a9999;
+}
+
+.grid__col--6.theme__colors {
+  background-color: #03a6ca;
+  padding: 1em 10px 1em;
+  border-radius: 5px;
+  color: #9a9999;
+}
+
+.grid__col--7.theme__colors {
+  background-color: #E4757A;
+  padding: 1em 10px 1em;
+  border-radius: 5px;
+  color: #9a9999;
+}
+
+.grid__col--8.theme__colors {
+  background-color: #FD7856;
+  padding: 1em 10px 1em;
+  border-radius: 5px;
+  color: #9a9999;
+}
+
+.grid__col--9.theme__colors {
+  padding: 1em 10px 1em;
+  border-radius: 5px;
+  color: #9a9999;
+}
+
+.grid__col--10.theme__colors {
+  padding: 1em 10px 1em;
+  border-radius: 5px;
+  color: #9a9999;
+}
+
+.grid__col--11.theme__colors {
+  padding: 1em 10px 1em;
+  border-radius: 5px;
+  color: #9a9999;
+}
+
+.grid__col--12.theme__colors {
+  background-color: #c4f4e9;
+  padding: 1em 10px 1em;
+  border-radius: 5px;
+  color: #9a9999;
+}
+
 .blockquote, p, h1, h2, h3, h4 {
   line-height: 1.6;
   color: #9a9999;

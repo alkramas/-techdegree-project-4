@@ -67,18 +67,10 @@
   }
 }
 
-
-//.grid__col--3
-//.grid__col--4
-//.grid__col--5
-//.grid__col--6
-//.grid__col--7
-//.grid__col--8
-//.grid__col--9
-//.grid__col--10
-//.grid__col--11
-//.grid__row {
-//  .theme__colors {
-//      @include gridelement($bgcolor: $success-color)
-//  }
-//}
+//create selectors specif to col-# and themes, fill with data form map
+@for $i from 3 through 12 {
+  .grid__col--#{$i}.theme__colors {
+      background-color: map-get($themes, #{$i});
+      @include gridelement
+  }
+}

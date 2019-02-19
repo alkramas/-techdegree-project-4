@@ -30,3 +30,15 @@ $default-lineheight: 1.6;
 
 //breakpoints
 $break-medium: 768px;
+
+
+//theme theme__colors
+$themes: (
+  '3': $info-color,
+  '4': $default-color,
+  '5': $success-color,
+  '6': $default-color-darker,
+  '7': $error-color,
+  '8': $warning-color,
+  '12': $primary-color-lighter,
+);

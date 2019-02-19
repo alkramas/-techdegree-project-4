@@ -45,3 +45,20 @@
 //flex basis from grid.scss to be tested
   }
 }
+
+
+//theme color with map
+
+// @mixin themes($map) {
+//   @each $theme, $color in $map {
+//       background-color: $color;
+//   }
+// }
+
+// @mixin themes {
+//   @each $theme, $color in $themes {
+//       & {
+//         background-color: $color;
+//       }
+//   }
+// }
