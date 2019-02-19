@@ -14,8 +14,7 @@
     padding: $button-padding;
     &:hover {
       background-color: $primary-color;
-      border-radius: $button-bordradius;
-      padding: $button-padding;
+      @include bg-rd;
       color: $white;
     }
     &:hover a {

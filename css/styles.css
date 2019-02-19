@@ -540,8 +540,8 @@ template {
 }
 .nav__item:hover {
   background-color: #58E1C1;
-  border-radius: 5px;
   padding: 1em 10px 1em;
+  border-radius: 5px;
   color: #fff;
 }
 .nav__item:hover a {
@@ -560,20 +560,67 @@ img {
 .img--frame {
   width: 100%;
   padding: 1em;
-  border: #9a9999 solid 2px;
+  border: #9a9999 solid 1px;
 }
 
 .img--logo {
   margin: 0.5em auto 0.5em auto;
 }
 
-.theme__colors {
+.btn--default {
   padding: 1em 10px 1em;
   border-radius: 5px;
-  color: #fff;
   background-color: #51DDFC;
+  color: #fff;
   border: none;
   width: 100%;
+  text-transform: uppercase;
+  margin: 0.75em 0;
+  letter-spacing: 0.25em;
+}
+.btn--success {
+  padding: 1em 10px 1em;
+  border-radius: 5px;
+  background-color: #63CC81;
+  color: #fff;
+  border: none;
+  width: 100%;
+  text-transform: uppercase;
+  margin: 0.75em 0;
+  letter-spacing: 0.25em;
+}
+.btn--error {
+  padding: 1em 10px 1em;
+  border-radius: 5px;
+  background-color: #E4757A;
+  color: #fff;
+  border: none;
+  width: 100%;
+  text-transform: uppercase;
+  margin: 0.75em 0;
+  letter-spacing: 0.25em;
+}
+.btn--warning {
+  padding: 1em 10px 1em;
+  border-radius: 5px;
+  background-color: #FD7856;
+  color: #fff;
+  border: none;
+  width: 100%;
+  text-transform: uppercase;
+  margin: 0.75em 0;
+  letter-spacing: 0.25em;
+}
+.btn--info {
+  padding: 1em 10px 1em;
+  border-radius: 5px;
+  background-color: #927BC1;
+  color: #fff;
+  border: none;
+  width: 100%;
+  text-transform: uppercase;
+  margin: 0.75em 0;
+  letter-spacing: 0.25em;
 }
 
 .form .form__label--hidden {

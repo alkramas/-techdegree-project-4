@@ -2,6 +2,13 @@
 // _mixins.scss
 // **********************************************
 
+//for use within mixins
+@mixin bg-rd {
+  padding: $button-padding;
+  border-radius: $button-bordradius;
+
+}
+
 //base elements
 
 @mixin imagecenter {
@@ -9,18 +16,28 @@
   margin: 2em auto 2em auto;
 }
 
+//buttons
 @mixin buttonbasic($bgcolor: null) {
-  padding: $button-padding;
-  border-radius: $button-bordradius;
-  color: $white;
+  @include bg-rd;
   background-color: $bgcolor;
+  color: $white;
   border: none;
   width: 100%;
+  text-transform: uppercase;
+  margin: 0.75em 0;
+  letter-spacing: 0.25em;
+}
+
+//grid elements
+@mixin gridelement($bgcolor: null) {
+  @include bg-rd;
+  background-color: $bgcolor;
+  color: $default-text-color;
 }
 
 //media queries, flexbox settings
 @mixin mediaquery($dir: null, $mgt: null, $mgl: null) {
-  @media (min-width: $mq-medium) {
+  @media (min-width: $break-medium) {
     flex-direction: $dir;
     margin-top: $mgt;
     margin-left: $mgl;
