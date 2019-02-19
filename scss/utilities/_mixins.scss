@@ -6,9 +6,15 @@
 @mixin bg-rd {
   padding: $button-padding;
   border-radius: $button-bordradius;
-
 }
-
+@mixin buttonstyles {
+  color: $white;
+  border: none;
+  width: 100%;
+  text-transform: uppercase;
+  margin: 0.75em 0;
+  letter-spacing: 0.25em;
+}
 //base elements
 
 @mixin imagecenter {
@@ -18,20 +24,15 @@
 
 //buttons
 @mixin buttonbasic($bgcolor: null) {
-  @include bg-rd;
   background-color: $bgcolor;
-  color: $white;
-  border: none;
-  width: 100%;
-  text-transform: uppercase;
-  margin: 0.75em 0;
-  letter-spacing: 0.25em;
+  @include bg-rd;
+  @include buttonstyles;
 }
 
 //grid elements
 @mixin gridelement($bgcolor: null) {
-  @include bg-rd;
   background-color: $bgcolor;
+  @include bg-rd;
   color: $default-text-color;
 }
 

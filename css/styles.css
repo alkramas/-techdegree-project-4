@@ -568,9 +568,9 @@ img {
 }
 
 .btn--default {
+  background-color: #51DDFC;
   padding: 1em 10px 1em;
   border-radius: 5px;
-  background-color: #51DDFC;
   color: #fff;
   border: none;
   width: 100%;
@@ -579,9 +579,9 @@ img {
   letter-spacing: 0.25em;
 }
 .btn--success {
+  background-color: #63CC81;
   padding: 1em 10px 1em;
   border-radius: 5px;
-  background-color: #63CC81;
   color: #fff;
   border: none;
   width: 100%;
@@ -590,9 +590,9 @@ img {
   letter-spacing: 0.25em;
 }
 .btn--error {
+  background-color: #E4757A;
   padding: 1em 10px 1em;
   border-radius: 5px;
-  background-color: #E4757A;
   color: #fff;
   border: none;
   width: 100%;
@@ -601,9 +601,9 @@ img {
   letter-spacing: 0.25em;
 }
 .btn--warning {
+  background-color: #FD7856;
   padding: 1em 10px 1em;
   border-radius: 5px;
-  background-color: #FD7856;
   color: #fff;
   border: none;
   width: 100%;
@@ -612,9 +612,9 @@ img {
   letter-spacing: 0.25em;
 }
 .btn--info {
+  background-color: #927BC1;
   padding: 1em 10px 1em;
   border-radius: 5px;
-  background-color: #927BC1;
   color: #fff;
   border: none;
   width: 100%;
@@ -632,7 +632,10 @@ img {
   border: none;
   border-bottom: #58E1C1 solid 4px;
   margin: 1em 0;
-  padding-left: 1em;
+  padding: 0 0 0.5em 1em;
+}
+.form .form__input::placeholder {
+  color: #5a5959;
 }
 
 /*# sourceMappingURL=styles.css.map */

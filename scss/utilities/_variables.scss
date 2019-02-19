@@ -8,7 +8,8 @@ $font-stack-primary: 'Aleo', serif;
 
 //colors
 $white: #fff;
-$default-text-color: #9a9999; //dark grey
+$default-text-color: #9a9999; // grey
+$darker-default-text-color: darken($default-text-color, 25%);
 $primary-color: #58E1C1; //turqoise
 $primary-color-lighter: lighten($primary-color, 25%); //lighter turqoise
 $default-color: #51DDFC; //light blue
