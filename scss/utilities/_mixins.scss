@@ -14,6 +14,13 @@
   margin: 2em auto 2em auto;
 }
 
+//flex default
+@mixin flex($flex: flex, $fldir: null, $alitms: null) {
+  display: $flex;
+  flex-direction: $fldir;
+  align-items: $alitms;
+}
+
 //aligns
 @mixin center-align($wd: null) {
   margin: 0 auto;
@@ -44,10 +51,11 @@
 }
 
 //media queries, flexbox settings
-@mixin mediaquery($dir: null, $jtfycnt: null, $alitms: null, $mgt: null, $mgl: null, $wd: null) {
+@mixin md-medium($dir: null, $jtfycnt: null, $flxb: null, $alitms: null, $mgt: null, $mgl: null, $wd: null) {
   @media (min-width: $break-medium) {
     flex-direction: $dir;
     justify-content: $jtfycnt;
+    flex-basis: $flxb;
     align-items: $alitms;
     margin-top: $mgt;
     margin-left: $mgl;

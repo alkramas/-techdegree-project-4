@@ -3,8 +3,8 @@
 // styles related to the image elements
 // **********************************************
 
-img {
-  @include imagecenter;
+.img--avatar {
+  @extend %img;
 }
 
 .img--frame {

@@ -4,7 +4,8 @@
 // **********************************************
 
 .nav {
-  @include mediaquery ($dir: row, $jtfycnt: flex-end);
+  @include flex($fldir: column, $alitms: center);
+  @include md-medium ($dir: row, $jtfycnt: flex-end);
   &__item {
     list-style-type: none;
     display: flex;
@@ -13,18 +14,16 @@
     margin-top: 5px;
     width: 100%;
     padding: $button-padding;
-    @include mediaquery ($wd: auto);
+    @include md-medium ($wd: auto);
     &:hover {
-      background-color: $primary-color;
+      @extend %navhover;
       @include bg-rd;
-      color: $white;
     }
     &:hover a {
-      background-color: $primary-color;
-      color: $white;
+      @extend %navhover;
     }
     & a {
-      color: $default-text-color;
+      @extend %navcolor;
     }
   }
 }
