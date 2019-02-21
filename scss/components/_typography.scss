@@ -15,12 +15,13 @@
 }
 .headline--secondary {
   color: $default-text-color;
-  font-size: 1.3em;
+  font-size: 1em;
   font-weight: normal;
+  margin-top: 0;
 }
 
 .blockquote {
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-style: italic;
   background-color: $white;
   border-left: solid 10px $primary-color;

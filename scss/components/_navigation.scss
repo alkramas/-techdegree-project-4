@@ -4,6 +4,7 @@
 // **********************************************
 
 .nav {
+  @include mediaquery ($dir: row, $jtfycnt: flex-end);
   &__item {
     list-style-type: none;
     display: flex;
@@ -12,6 +13,7 @@
     margin-top: 5px;
     width: 100%;
     padding: $button-padding;
+    @include mediaquery ($wd: auto);
     &:hover {
       background-color: $primary-color;
       @include bg-rd;

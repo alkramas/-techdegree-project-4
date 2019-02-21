@@ -7,6 +7,20 @@
   padding: $button-padding;
   border-radius: $button-bordradius;
 }
+
+//base elements
+@mixin imagecenter {
+  display: block;
+  margin: 2em auto 2em auto;
+}
+
+//aligns
+@mixin center-align($wd: null) {
+  margin: 0 auto;
+  width: $wd;
+}
+
+//buttons
 @mixin buttonstyles {
   color: $white;
   border: none;
@@ -15,14 +29,7 @@
   margin: 0.75em 0;
   letter-spacing: 0.25em;
 }
-//base elements
 
-@mixin imagecenter {
-  display: block;
-  margin: 2em auto 2em auto;
-}
-
-//buttons
 @mixin buttonbasic($bgcolor: null) {
   background-color: $bgcolor;
   @include bg-rd;
@@ -33,32 +40,17 @@
 @mixin gridelement($bgcolor: null) {
   background-color: $bgcolor;
   @include bg-rd;
-  color: $default-text-color;
+  color: $darker-default-text-color;
 }
 
 //media queries, flexbox settings
-@mixin mediaquery($dir: null, $mgt: null, $mgl: null) {
+@mixin mediaquery($dir: null, $jtfycnt: null, $alitms: null, $mgt: null, $mgl: null, $wd: null) {
   @media (min-width: $break-medium) {
     flex-direction: $dir;
+    justify-content: $jtfycnt;
+    align-items: $alitms;
     margin-top: $mgt;
     margin-left: $mgl;
-//flex basis from grid.scss to be tested
+    width: $wd;
   }
 }
-
-
-//theme color with map
-
-// @mixin themes($map) {
-//   @each $theme, $color in $map {
-//       background-color: $color;
-//   }
-// }
-
-// @mixin themes {
-//   @each $theme, $color in $themes {
-//       & {
-//         background-color: $color;
-//       }
-//   }
-// }
