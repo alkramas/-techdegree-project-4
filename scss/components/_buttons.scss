@@ -10,17 +10,22 @@
 .btn {
   &--default {
     @include buttonbasic($default-color);
+    @include md-medium($wd: calc((100% / 12) + 80px));
   }
   &--success {
     @include buttonbasic($success-color);
+    @include md-medium($wd: calc((100% / 12) + 80px));
   }
   &--error {
     @include buttonbasic($error-color);
+    @include md-medium($wd: calc((100% / 12) + 80px));
   }
   &--warning {
     @include buttonbasic($warning-color);
+    @include md-medium($wd: calc((100% / 12) + 80px));
   }
   &--info {
     @include buttonbasic($info-color);
+    @include md-medium($wd: calc((100% / 12) + 80px));
   }
 }

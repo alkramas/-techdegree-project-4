@@ -33,9 +33,10 @@
         // from the  media query
         margin-top: 10px;
         flex-basis: 100%;
-
+        @include flex($fldir: column);
         // NOTE: replace with media query mixin if aiming for exceeds
-        @include md-medium ($mgt: 0, $flxb: #{$i / 12 * 100} + "%");
+        // @include flex($flex: flex);
+        @include md-medium ($jtfycnt: space-around, $dir: row, $mgt: 0, $flxb: #{$i / 12 * 100} + "%");
       }
     }
   }
